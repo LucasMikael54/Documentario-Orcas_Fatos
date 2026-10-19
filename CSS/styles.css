@@ -172,10 +172,3 @@ body {
 .prev-btn { left: -10px; }
 .next-btn { right: -10px; }
 
-/* Responsividade: exibe menos cards em telas menores */
-@media (max-width: 900px) {
-  .carousel-card { min-width: calc((100% - 20px) / 2); } /* 2 cards */
-}
-@media (max-width: 600px) {
-  .carousel-card { min-width: 100%; } /* 1 card */
-}
